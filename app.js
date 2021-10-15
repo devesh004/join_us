@@ -9,8 +9,8 @@ app.use(express.urlencoded({ extended: true }))
 
 var con = mysql.createConnection({
     host: "localhost",
-    user: "devesh",
-    password: "Devesh@123",
+    user: "username",
+    password: "password",
     database: 'join_us',
     port: 3306,
     insecureAuth: true
